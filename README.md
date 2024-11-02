@@ -1,5 +1,5 @@
 "# Visualization-of-large-screens" 
-
+使用爬虫获取懂车帝数据并保存到数据库，基于 Flask 和 EChart 实现一个可视化大屏。
 ## 项目介绍
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Dcar 是一个基于 Flask 和 Vue 的懂车帝数据可视化大屏项目。利用爬虫爬取懂车帝的二手车数据存入数据库，然后利用Flask获取爬取后的数据，
