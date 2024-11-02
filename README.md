@@ -1,5 +1,7 @@
 # Visualization-of-large-screens
-## 使用爬虫获取懂车帝数据并保存到数据库，基于 Flask 和 EChart 实现可视化大屏。
+
+## 基于 Flask 和 EChart 实现可视化大屏，通过爬虫获取懂车帝数据并保存到数据库，。
+
   
 ## 项目介绍
 
