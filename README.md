@@ -3,11 +3,11 @@
 ## 基于 Flask 和 EChart 实现可视化大屏，通过爬虫获取懂车帝数据并保存到数据库，。
 
   
-## 项目介绍
+### 一.项目介绍:
 
   Dcar 是一个基于 Flask 和 Vue 的懂车帝数据可视化大屏项目。利用爬虫爬取懂车帝的二手车数据存入数据库，然后利用Flask获取爬取后的数据，同时对数据进行清洗，利用EChart实现可视化处理，，最终将数据以图表的形式在前端展现出来。
 
-### 项目结构
+### 二.项目结构:
   结构如下：
   ```
   Dcar
@@ -36,7 +36,7 @@
   └── showChart.py  # 可视化
   ```
 
-### 安装依赖
+### 三.安装依赖:
 
   首先，安装项目的Python依赖：
 
@@ -44,18 +44,18 @@
   pip install -r requirements.txt
   ```
 
-### 创建数据库和表
+### 四.创建数据库和表:
 
   ```bash
   net start mysql80
   mysql -u [username] -p [database_name] < Dcarsql.sql
   ```
 
-### 定义数据库模型
+### 五.定义数据库模型:
 
   在flask_Dcar.py 中，定义一个与 car_sales_copy1 表对应的模型。定义一个 API 路由，返回 car_sales_copy1 表中的数据。
 
-### 启动 Flask 服务器
+### 六.启动 Flask 服务器:
 
   初始化 Flask 应用并连接到 MySQL 数据库。
   需要修改用户名，密码以及数据库名称（注）
@@ -64,7 +64,7 @@
   python flask_Dcar.py
   ```
 
-### 安装 Vue 和依赖
+### 七.安装 Vue 和依赖:
   ```bash
   vue create vue-dcar
   ####
@@ -75,7 +75,7 @@
   npm run serve
   ```
 
-### 最终效果
+### 八.最终效果:
   #### 以下是项目的最终效果展示:
   ![可视化大屏](./Chart/可视化大屏.jpg)
 
